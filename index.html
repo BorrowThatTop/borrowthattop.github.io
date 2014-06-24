@@ -43,7 +43,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" onclick="_gaq.push(['_trackEvent','InternalLink','click',this.href]);" href="#page-top">
+                <a class="navbar-brand" onclick="ga.push('send', 'event', 'InternalLink','click',this.href);" href="#page-top">
                     <i class="fa fa-play-circle"></i>  The "Borrow That Top" Twitter Bot
                 </a>
             </div>
@@ -53,16 +53,16 @@
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
-                        <a onclick="_gaq.push(['_trackEvent','InternalLink','click',this.href]);" href="#page-top"></a>
+                        <a onclick="ga.push('send', 'event', 'InternalLink','click',this.href);" href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a onclick="_gaq.push(['_trackEvent','InternalLink','click',this.href]);" href="#about">About</a>
+                        <a onclick="ga.push('send', 'event', 'InternalLink','click',this.href);" href="#about">About</a>
                     </li>
                     <li class="page-scroll">
-                        <a onclick="_gaq.push(['_trackEvent','InternalLink','click',this.href]);" href="#download">Follow on Twitter</a>
+                        <a onclick="ga.push('send', 'event', 'InternalLink','click',this.href);" href="#download">Follow on Twitter</a>
                     </li>
                     <li class="page-scroll">
-                        <a onclick="_gaq.push(['_trackEvent','InternalLink','click',this.href]);" href="#contact">Contact</a>
+                        <a onclick="ga.push('send', 'event', 'InternalLink','click',this.href);" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -81,7 +81,7 @@
                         A simple Bot that interacts with Twitter users based on keywords used on status updates. The Bot uses Twitter Firehose to collect status updates via the Twitter Stream. He is friendly so if you follow him he will follow you back. 
                         </p>
                         <div class="page-scroll">
-                            <a onclick="_gaq.push(['_trackEvent','InternalLink','click',this.href]);" href="#about" class="btn btn-circle">
+                            <a onclick="ga.push('send', 'event', 'InternalLink','click',this.href);" href="#about" class="btn btn-circle">
                                 <i class="fa fa-angle-double-down animated"></i>
                             </a>
                         </div>
@@ -96,7 +96,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About @Borrow That Top</h2>
                 <p>
-                  @Borrow That Top was created to demo the use of the Twitter firehose streaming API. It was developed by PHP Programmer Angel S. Moreno from <a onclick="_gaq.push(['_trackEvent','ExternalLink','click',this.href]);" href="//phpmine.com" target="_blank">PHPMine</a>. The bot was inspired by Kelly, a character portrayed by American comedian, actor, and director <a onclick="_gaq.push(['_trackEvent','ExternalLink','click',this.href]);" href="//www.liamshow.com/about/" target="_blank">Liam Kyle Sullivan</a>.
+                  @Borrow That Top was created to demo the use of the Twitter firehose streaming API. It was developed by PHP Programmer Angel S. Moreno from <a onclick="ga.push('send', 'event', 'ExternalLink','click',this.href);" href="//phpmine.com" target="_blank">PHPMine</a>. The bot was inspired by Kelly, a character portrayed by American comedian, actor, and director <a onclick="ga.push('send', 'event', 'ExternalLink','click',this.href);" href="//www.liamshow.com/about/" target="_blank">Liam Kyle Sullivan</a>.
                 </p>
             </div>
         </div>
@@ -108,7 +108,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <h2>Follow on Twitter</h2>
                     <p>@borrowThatTop</p>
-                    <a onclick="_gaq.push(['_trackEvent','ExternalLink','click',this.href]);" target="_blank" href="https://twitter.com/borrowthattop" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Follow @Borrow That Top on Twitter</span></a>
+                    <a onclick="ga.push('send', 'event', 'ExternalLink','click',this.href);" target="_blank" href="https://twitter.com/borrowthattop" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Follow @Borrow That Top on Twitter</span></a>
                     </a>
                 </div>
             </div>
@@ -122,11 +122,11 @@
                 <p>Feel free to email Angel S. Moreno to provide some feedback on the bot, give us suggestions for new features and functionality, or to just say hello!</p>
                 <p><a href="mailto:&#098;&#111;&#114;&#114;&#111;&#119;&#116;&#104;&#097;&#116;&#116;&#111;&#112;&#046;&#101;&#109;&#097;&#105;&#108;&#064;&#116;&#119;&#101;&#101;&#116;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;&#046;&#099;&#111;&#109;?subject=From BorrowThatTop.Github.IO">&#098;&#111;&#114;&#114;&#111;&#119;&#116;&#104;&#097;&#116;&#116;&#111;&#112;&#046;&#101;&#109;&#097;&#105;&#108;&#064;&#116;&#119;&#101;&#101;&#116;&#118;&#101;&#110;&#116;&#117;&#114;&#101;&#115;&#046;&#099;&#111;&#109;</a></p>
                 <ul class="list-inline banner-social-buttons">
-                    <li><a onclick="_gaq.push(['_trackEvent','ExternalLink','click',this.href]);" target="_blank" href="https://twitter.com/angelxmoreno" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    <li><a onclick="ga.push('send', 'event', 'ExternalLink','click',this.href);" target="_blank" href="https://twitter.com/angelxmoreno" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                     </li>
-                    <li><a onclick="_gaq.push(['_trackEvent','ExternalLink','click',this.href]);" target="_blank" href="https://github.com/angelxmoreno" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                    <li><a onclick="ga.push('send', 'event', 'ExternalLink','click',this.href);" target="_blank" href="https://github.com/angelxmoreno" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
                     </li>
-                    <li><a onclick="_gaq.push(['_trackEvent','ExternalLink','click',this.href]);" target="_blank" href="https://plus.google.com/+AngelXMoreno/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
+                    <li><a onclick="ga.push('send', 'event', 'ExternalLink','click',this.href);" target="_blank" href="https://plus.google.com/+AngelXMoreno/posts" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
                     </li>
                 </ul>
             </div>
